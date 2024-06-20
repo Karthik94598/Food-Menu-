@@ -1,0 +1,311 @@
+nav{
+    height: 80px;
+    width: 100%;
+    box-shadow: 0px 12px 9px -4px rgba(0,0,0,0.49);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    top: 0;
+}
+.logo{
+    height: 75px;
+    width: 30%;
+    display: flex;
+    padding-inline-start: 20px;
+    justify-content: left;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    float: right;
+    padding-inline-end: 15px;
+    align-items: center;
+ }
+ul{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+li{
+   float: left;
+   padding-left: 15px;
+}
+li>a{
+   text-decoration: none;
+}
+.home{
+    background-image: url(https://www.shutterstock.com/image-photo/background-cooking-tagliatelle-pasta-ingredients-260nw-1724611486.jpg);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+    background-size: cover; /* Cover the entire container */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    font-family: Verdana;
+    justify-content: center;
+    
+ }
+ .home>p{
+   margin-top: -10px;
+   font-size: 38px;
+ }
+ .hb{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+ }
+ #VM{
+  background-color: chocolate;
+  color: antiquewhite;
+  justify-content: space-around;
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+ }
+ #EN{
+   border-color: chocolate;
+   background-color: transparent;
+   color: antiquewhite;
+   justify-content: space-around;
+   width: 100px;
+   height: 50px;
+   border-radius: 15px;
+  }
+ #choose{
+   height: 600px;
+   width: 100%;
+   background-color: rgb(204, 217, 253);
+   display: flex;
+   flex-direction: column;
+   padding: 15px;
+   justify-content: space-around;
+}
+.cc{
+   height: 600px;
+   width: 100%;
+   background-color: transparent;
+   display: flex;
+   flex-direction:  row;
+   align-items: center;
+   justify-content: space-around;
+}
+.c1{
+   height: 400px;
+   width: 30%;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   text-align: justify;
+   padding: 10px;
+}
+.c2{
+   height: 400px;
+   width: 30%;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   text-align: justify;
+   padding: 10px;
+}
+.c3{
+   height: 400px;
+   width: 30%;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   text-align: justify;
+   padding: 10px;
+}
+#menu{
+   height: 700px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   padding: 15px;
+   justify-content: space-around;
+}
+.mr1{
+   display: flex;
+   flex-direction: row;
+   height: 300px;
+   width: 100%;
+   background-color: white;
+   justify-content: space-around;
+}
+.nvs{
+   display: flex;
+   flex-direction: column;
+   height: 300px;
+   width: 20%;
+   background-color: white;
+   box-shadow: -2px 2px 5px 5px rgba(0,0,0,0.4);
+}
+.vs{
+   display: flex;
+   flex-direction: column;
+   height: 300px;
+   width: 20%;
+   background-color: white;
+   box-shadow: -2px 2px 5px 5px rgba(0,0,0,0.4);
+}
+.soup{
+   display: flex;
+   flex-direction: column;
+   height: 300px;
+   width: 20%;
+   background-color: white;
+   box-shadow: -2px 2px 5px 5px rgba(0,0,0,0.4);
+}
+.seaFood{
+   display: flex;
+   flex-direction: column;
+   height: 300px;
+   width: 20%;
+   background-color: white;
+   box-shadow: -2px 2px 5px 5px rgba(0,0,0,0.4);
+}
+
+.mr2{
+   display: flex;
+   flex-direction: row;
+   height: 300px;
+   width: 100%;
+   background-color: white;
+   justify-content: space-around;
+}
+.main{
+   display: flex;
+   flex-direction: column;
+   height: 300px;
+   width: 20%;
+   background-color: white;
+   box-shadow: -2px 2px 5px 5px rgba(0,0,0,0.4);
+}
+.noodles{
+   display: flex;
+   flex-direction: column;
+   height: 300px;
+   width: 20%;
+   background-color: white;
+   box-shadow: -2px 2px 5px 5px rgba(0,0,0,0.4);
+}
+.salads{
+   display: flex;
+   flex-direction: column;
+   height: 300px;
+   width: 20%;
+   background-color: white;
+   box-shadow: -2px 2px 5px 5px rgba(0,0,0,0.4);
+}
+.deserts{
+   display: flex;
+   flex-direction: column;
+   height: 300px;
+   width: 20%;
+   background-color: white;
+   box-shadow: -2px 2px 5px 5px rgba(0,0,0,0.4);
+}
+.fi>img{
+   display: flex;
+   border-radius: 15px;
+   height: 200px;
+   width: 100%;
+}
+.fc>h1{
+   display: flex;
+   padding: 15px;
+}
+#delivery{
+   height: 400px;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   padding: 15px;
+   justify-content: space-around;
+   background-color: white;
+}
+.dc{
+   display: flex;
+   flex-direction: column;
+   padding: 15px;
+   height: 350px;
+   width: 40%;
+   text-align: justify;
+}
+.di>img{
+   display: flex;
+   flex-direction: column;
+   padding: 15px;
+   height: 350px;
+   width: 100%;
+}
+.dc>button{
+   background-color: chocolate;
+   color: white;
+   border-radius: 15px;
+   height: 40px;
+   width: 175px;
+}
+.pay{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   height: 80px;
+   width: 80%;
+}
+.pay>img{
+   display: flex;
+   justify-content: space-around;
+   height: 80px;
+   width: 80%;
+}
+ #social{
+    height: 200px;
+    width: 100%;
+    background-color:  rgb(204, 217, 253);
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+
+ }
+ .sl{
+   display: flex;
+   flex-direction: row;
+   margin: 50px;
+   align-items: center;
+   justify-content:center ;
+}
+ .sl>button{
+   display: flex;
+   border-radius: 50%x;
+   height: 50px;
+   width: 50px;
+}
+.sl>button>img{
+   display: flex;
+   border-radius: 50%x;
+   height: 50px;
+   width: 50px;
+}
+ p{
+    align-items: center;
+    text-align: center center;
+    font-size: 18px;
+    font-family: Verdana;
+ }
+ 
+ 
